@@ -1,0 +1,15 @@
+[package]
+name = "suffix-automaton-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["SuperInstance"]
+description = "Suffix automaton (SAM), all distinct substrings, occurrence counts"
+license = "MIT"
+repository = "https://github.com/SuperInstance/suffix-automaton-rs"
+keywords = ["suffix-automaton", "SAM", "string-algorithms", "substrings"]
+categories = ["algorithms", "text-processing"]
+readme = "README.md"
+
+[lib]
+name = "suffix_automaton"
+path = "src/lib.rs"
